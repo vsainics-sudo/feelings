@@ -142,6 +142,19 @@ h1{
   box-shadow: 0 4px 12px rgba(255, 107, 129, 0.3);
 }
 
+/* Miss message styling for page4 */
+#missMessage{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  white-space: pre-wrap;
+  background: linear-gradient(135deg, #ff6b81, #ff9a8b, #ffc3a0);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 107, 129, 0.3);
+}
+
 /* responsive */
 @media (max-width:720px){
   .card{flex-direction:column;align-items:center;padding:20px}
