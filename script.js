@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 window.location.href = 'page2.html';
             } else if (currentPage === 'page2.html') {
                 window.location.href = 'page3.html';
+            } else if (currentPage === 'page3.html') {
+                window.location.href = 'page4.html';
             }
         });
     }
